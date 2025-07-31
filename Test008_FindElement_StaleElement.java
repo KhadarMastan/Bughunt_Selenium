@@ -25,6 +25,7 @@ public class Test008_FindElement_StaleElement {
 		System.out.println("Exception is-------->  " + e);
 		
 		}
+		//close the active browser window
 		driver.close();
 
 	}
